@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+h1 {
+    color: #2C3E50;
+}
+#search-container {
+    margin-bottom: 20px;
+}
+#films .film {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+#films .film:last-child {
+    border-bottom: none;
+}
+#films h2 {
+    margin: 0;
+}
+#films p {
+    margin: 5px 0 0 0;
+}
+#suggestions {
+    border: 1px solid #ccc;
+    max-height: 150px;
+    overflow-y: auto;
+    position: absolute;
+    background-color: white;
+    width: 200px;
+}
+#suggestions div {
+    padding: 5px;
+    cursor: pointer;
+}
+#suggestions div:hover {
+    background-color: #f0f0f0;
+}
