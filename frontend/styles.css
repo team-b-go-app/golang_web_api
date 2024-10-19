@@ -1,38 +1,121 @@
+@font-face {
+    font-family: 'Yama Font';
+    src: url('fonts/yamafont.ttf') format('truetype');
+}
+
 body {
-    font-family: Arial, sans-serif;
-    margin: 20px;
-}
-h1 {
-    color: #2C3E50;
-}
-#search-container {
-    margin-bottom: 20px;
-}
-#films .film {
-    border-bottom: 1px solid #ccc;
-    padding: 10px 0;
-}
-#films .film:last-child {
-    border-bottom: none;
-}
-#films h2 {
+    font-family: 'Merriweather', serif;
+    background-color: #e9f5e1; 
+    color: #2c3e50;
     margin: 0;
+    padding: 20px;
 }
-#films p {
-    margin: 5px 0 0 0;
+
+h1 {
+    color: #3d5a3d; 
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-family: 'Yama Font', serif;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
 }
+
+#search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+}
+
+#search {
+    padding: 10px;
+    font-size: 1rem;
+    width: 100%;
+    border: 2px solid #8fb09b; 
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
 #suggestions {
-    border: 1px solid #ccc;
-    max-height: 150px;
+    max-width: 400px;
+    border: 1px solid #8fb09b; 
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     overflow-y: auto;
-    position: absolute;
-    background-color: white;
-    width: 200px;
+    max-height: 200px;
+    margin-top: 10px;
 }
+
 #suggestions div {
-    padding: 5px;
+    padding: 10px;
     cursor: pointer;
+    border-bottom: 1px solid #eee;
+    transition: background-color 0.2s ease;
 }
+
 #suggestions div:hover {
-    background-color: #f0f0f0;
+    background-color: #e0f2dc; 
+}
+
+#films {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    font-family: 'Merriweather', serif;
+}
+
+.film h2 {
+    
+    margin-top: 0;
+    font-size: 1.8rem;
+    color: #5a8234; 
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.film p {
+    margin: 5px 0;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #3d5a3d;
+}
+
+button {
+    background-color: #8fb09b; 
+    color: #ffffff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #709b7a; 
+}
+
+#characters {
+    margin-top: 20px;
+    font-family: 'Merriweather', serif;
+}
+
+#characters h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #5a8234; 
+}
+
+#characters p {
+    font-size: 1rem;
+    margin: 5px 0;
+    color: #2c3e50;
 }
