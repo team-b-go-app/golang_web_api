@@ -1,20 +1,28 @@
-# golang_web_api
+# 🎥ジブリ映画のキャラクター検索アプリ 
 
-ジブリの映画を検索して、その映画に登場するキャラクターを表示します。
+ジブリ映画を検索してみてください！
+その映画に登場するキャラクターが表示されます！
 
-
-## Demo
+## 📌Demo
 
 https://github.com/user-attachments/assets/6dba9387-7276-4529-8f5f-a8c3d04555bc
 
+## 💻使用技術
 
-## 使い方
+| Category | Technology |
+| :---: | :---: |
+| Frontend | HTML, CSS, Javascript |
+| Backend | GO |
+
+## 🔨使い方
+
+ローカル環境での動作を想定しています。
 
 ### 0. 準備
 
 ```zsh: クローン
 # リポジトリをクローン
-$ git clone https://github.com/nyantarou2001002/WebAPI.git
+$ git clone https://github.com/team-b-go-app/golang_web_api.git
 # ワークディレクトリに移動
 $ cd golang_web_api
 ```
@@ -31,14 +39,13 @@ $ go run backend/main.go
 $ open frontend/index.html
 ```
 
+## 📅開発期間
 
-## 使用技術
-- フロントエンド：HTML, CSS, Javascript
-- バッグエンド：GO
-- その他：Amazon EC2
+```text
+2024/10/14 ~ 2024/10/27
+```
+## 🧑‍💻チームメンバー
 
-## チームメンバー
-
-- [YuyaNakamura0139](https://github.com/YuyaNakamura0139)
-- [tontatonta](https://github.com/tontatonta)
-- [nyantarou2001002](https://github.com/nyantarou2001002)
+- 😇🖖[YuyaNakamura0139](https://github.com/YuyaNakamura0139)
+- 😁🫰[tontatonta](https://github.com/tontatonta)
+- 😎🤟[nyantarou2001002](https://github.com/nyantarou2001002)
