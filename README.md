@@ -1,7 +1,10 @@
 # 🎥ジブリ映画のキャラクター検索アプリ 
 
-ジブリ映画を検索してみてください！
+以下のリンクからジブリ映画を検索してみてください！
+
 その映画に登場するキャラクターが表示されます！
+
+https://go-web-api.ynakamuras.com/
 
 ## 📌Demo
 
@@ -13,10 +16,19 @@ https://github.com/user-attachments/assets/6dba9387-7276-4529-8f5f-a8c3d04555bc
 | :---: | :---: |
 | Frontend | HTML, CSS, Javascript |
 | Backend | GO |
+| Infrastructure | AWS |
+
+## 📝構成図
+
+AWSへデプロイしてインターネットからアクセスできるようにしました。
+
+![AWS](https://github.com/user-attachments/assets/4e33f33a-5a39-4467-888d-5bf4e236421d)
 
 ## 🔨使い方
 
-ローカル環境での動作を想定しています。
+ローカル環境での再現方法は以下の通りです。
+
+(※)AWSへデプロイしましたが、コード自体はローカルでの動作前提です。
 
 ### 0. 準備
 
@@ -44,6 +56,7 @@ $ open frontend/index.html
 ```text
 2024/10/14 ~ 2024/10/27
 ```
+
 ## 🧑‍💻チームメンバー
 
 - 😇🖖[YuyaNakamura0139](https://github.com/YuyaNakamura0139)
